@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: lightgreen;
+    height: 95vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 40px;
+    font-style: italic;
+}
+
+button  {
+    width: 140px;
+    height: 48px;
+    border-radius: 10px;
+    margin-top: 24px;
+    font-size: 24px;
+}
+a {
+    text-decoration: none;
+}
+button:hover {
+    background-color: lightgreen;
+}
+
